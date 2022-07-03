@@ -23,6 +23,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 10rem;
 }
 
 #heading {
@@ -37,4 +38,11 @@ section {
   color: white;
   font-weight: 800;
   border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#dram_big {
+  background-image: url(./img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
