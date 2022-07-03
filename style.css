@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -7,10 +8,33 @@ h1 {
 }
 
 .name_color {
-  color: orange;
+  color: rgb(255, 165, 0);
 }
 
-#my_image {
-  width: 300px;
-  height: 300px;
+.half_width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.half_width img {
+  width: 80%;
+  object-fit: cover;
+}
+
+section {
+  display: flex;
+}
+
+#heading {
+  background-image: url(./img/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
 }
